@@ -383,9 +383,9 @@ footer {
     .box2,
     .box4,
     .box5 {
-        width: 60vh;
-        height: 60vh;
-        margin-left: -8%; 
+        width: 40vh;
+        height: 40vh;
+        margin-left: auto; 
     }
     .box1,
     .box4 {
