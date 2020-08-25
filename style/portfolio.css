@@ -383,7 +383,7 @@ footer {
     .box2,
     .box4,
     .box5 {
-        width: 20vh;
+        width: 40vh;
         height: 40vh;
         margin-left: auto; 
     }
@@ -397,7 +397,7 @@ footer {
         margin-left: -50px;
     }
 } 
-@media only screen and (max-width: 510px) {
+@media only screen (min-width: 481px) and (max-width: 510px) {
     i {
         font-size: 2em;
         margin-bottom: 0;
@@ -412,8 +412,8 @@ footer {
     .box2,
     .box4,
     .box5 {
-        width: 25vh;
-        height: 45vh;
+        /* width: 60vh;
+        height: 60vh; */
         margin-left: 8%;
     }
     .box1,
@@ -446,15 +446,15 @@ footer {
     .box4 {
         margin-bottom: 30px;
     }
-    .box1,
+    /* .box1,
     .box2,
     .box4,
     .box5 {
-        width: 40vh;
-        height: 40vh;
+        width: 60vh;
+        height: 60vh;
         margin-left: 16%;
         
-    }
+    } */
 }
 @media only screen and (max-width: 810px) {
     i {
