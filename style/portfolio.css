@@ -397,7 +397,7 @@ footer {
         margin-left: -50px;
     }
 } 
-@media only screen (min-width: 481px) and (max-width: 510px) {
+@media only screen and (min-width: 481px) and (max-width: 510px) {
     i {
         font-size: 2em;
         margin-bottom: 0;
