@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 body {
-    background-color: black;
+    /* background-color: black; */
+    max-width: 626px;
     font-family: 'Josefin Sans', sans-serif;
     position: relative;
     overflow-x: hidden;
@@ -19,6 +20,10 @@ body {
     margin-top: 2%;
     padding: 10px;
     border-radius: 50%;
+}
+.overall-container {
+    background-color: white;
+
 }
 .fa-arrow-left:hover {
     color: green;
@@ -82,9 +87,10 @@ footer {
     transform: translateX(-100%);
     
 }
-/* .homex {
-    margin-top: 0 !important;
-} */
+.top-icons {
+    overflow-x: hidden;
+}
+
 .homex,
 .aboutx,
 .projectsx,
