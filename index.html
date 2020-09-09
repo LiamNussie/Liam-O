@@ -12,13 +12,39 @@
 </head>
 <body>
     
+    <div class="nav-open">
+        <i class="fas fa-bars"></i>
+    </div>
+
+    <div class="modes">
+        
+    </div>
+
+    <div class="logo">
+        <i class="fas fa-lightbulb"></i>
+        <i class="fas fa-moon"></i>
+        <img class="logo-dark" src="images/logo-dark.jpg" alt="">
+    </div>
+   
+
+
+            <div class="slide-bar">
+                <i class="fas fa-arrow-left"></i>
+                <ul class="navx">
+                    <li class="homex">Home</li>
+                    <li class="aboutx">About</li>
+                    <li class="projectsx">Projects</li>
+                    <li class="skillsx">Skills & Resume</li>
+                    <li class="contactx">Contact</li>
+                </ul>
+            </div>
     
 
 
     <div class="container my-4 page-area text-center">
 
-        
-        
+        <img class="avatar animate__animated animate__tada animate__slower" src="images/avatar.png" alt="">
+
 
         <div class="name-area">
             <p class="heading-intro animate__animated animate__fadein animate__slower animate__delay-.5s">Hello I'm </p>
@@ -36,11 +62,12 @@
                     <i class="fab fa-css3"></i><i class="fab fa-git-square"></i><i class="fab fa-angular"></i>
                 </div>
                 <div class="icon4">
-                    <i class="fab fa-php"></i><i class="fab fa-bootstrap"></i><i class="fab fa-sass"></i>
+                    <i class="fab fa-php"></i><i class="fab fa-sass"></i>
                 </div>         
             </div>
            
             <button class="hire-me btn animate__animated animate__fadein animate__slower animate__delay-3s">HIRE ME</button>
+            <button class="about-me btn animate__animated animate__fadein animate__slower animate__delay-3s">ABOUT ME</button>
         </div>
     
             <div class="arrow-down">
@@ -49,77 +76,127 @@
             
 
 
-        <div class="projects">
-            <h3>MY PROJECTS</h3>
-
-                <div class="boxes">
-                    <div class="boxes1">
+        <div class="container projects">
+            <h3>FEATURED PROJECTS</h3>
+                <div class="boxset1">
+                    <div class="container boxes">
                         <div class="box1">
+                            <h2 class="project-name">CONVERSE CHAT</h2>
                             <a href="https://github.com/LiamNussie/Converse-chatroom" class="fab fa-github-square animate__animated animate__tada animate__infinite animate__fast animate__delay-3s"></a>
                             <a href="https://converseapp.netlify.app" class="fas fa-link animate__animated animate__tada animate__infinite animate__fast animate__delay-3s"></a>
-                            <h2 class="project-name">CONVERSE CHAT</h2>
-                            <p class="desc">HTML, CSS, JS, FIREBASE</p>
+                            <i class="fas fa-info-circle info1 animate__animated animate__tada animate__infinite animate__fast animate__delay-3s"></i>
+                            <div class="info-text1">
+                                <p class="info">A public chatroom application made with javascript and firebase.</p>
+                                <button class="btn info-close1">close</button>
+                            </div>
                         </div>
+                    </div>
+
+                    <div class="container boxes">
                         <div class="box2">
                             <a href="https://github.com/LiamNussie/Liam-Quiz-Project" class="fab fa-github-square animate__animated animate__tada animate__infinite animate__fast animate__delay-3s"></a>
                             <a href="https://liamquiz.netlify.app" class="fas fa-link animate__animated animate__tada animate__infinite animate__fast animate__delay-3s"></a>
                             <h2 class="project-name">LIAM QUIZ</h2>
-                            <p class="desc">HTML, CSS, JS</p>
+                            <i class="fas fa-info-circle info2 animate__animated animate__tada animate__infinite animate__fast animate__delay-3s"></i>
+                            <div class="info-text2">
+                                <p class="info">A Quiz test web application about myself made with vanilla javascript.</p>
+                                <button class="btn info-close2">close</button>
+                            </div>
                         </div>
-                        <!-- <div class="box3">
-                            <a href="https://github.com/LiamNussie/Liam-Todo-Project" class="fab fa-github-square animate__animated animate__tada animate__infinite animate__fast animate__delay-3s"></a>
-                            <a href="https://liamtodo.netlify.app" class="fas fa-link animate__animated animate__tada animate__infinite animate__fast animate__delay-3s"></a>
-                            <h2 class="project-name">TODO APP</h2>
-                            <p class="desc">HTML, CSS, JS</p>
-                        </div> -->
                     </div>
-        
-                    <div class="boxes2">
+                </div>
+
+                <div class="floats"></div>
+
+                <div class="boxset2">
+                    <div class="container boxes">
                         <div class="box4">
                             <a href="" class="fab fa-github-square animate__animated animate__tada animate__infinite animate__fast animate__delay-3s"></a>
                             <a href="https://liamweather.netlify.app" class="fas fa-link animate__animated animate__tada animate__infinite animate__fast animate__delay-3s"></a>
                             <h2 class="project-name">NUSSIE WEATHER</h2>
-                            <p class="desc">HTML, CSS, JS, API</p>
+                            <i class="fas fa-info-circle info3 animate__animated animate__tada animate__infinite animate__fast animate__delay-3s"></i>
+                            <div class="info-text3">
+                                <p class="info">A global weather information web application built with javascript and Accuweather API.</p>
+                                <button class="btn info-close3">close</button>
+                            </div>
                         </div>
+                    </div>
+                        
+                    <div class="container boxes">
                         <div class="box5">
                             <a href="https://github.com/LiamNussie/Liam-Guitars-Project" class="fab fa-github-square animate__animated animate__tada animate__infinite animate__fast animate__delay-3s"></a>
                             <a href="https://liamguitars.netlify.app" class="fas fa-link animate__animated animate__tada animate__infinite animate__fast animate__delay-3s"></a>
                             <h2 class="project-name">LIAM GUITARS</h2>
-                            <p class="desc">HTML, CSS, JS</p>
+                            <i class="fas fa-info-circle info4 animate__animated animate__tada animate__infinite animate__fast animate__delay-3s"></i>
+                            <div class="info-text4">
+                                <p class="info">An e-commerce website made with react.</p>
+                                <button class="btn info-close4">close</button>
+                            </div>
                         </div>
                     </div>
+
+
+
                 </div>
+                
+                    
             
         </div>
+
                     <div class="floats"></div>
+
     </div>
 
     <div class="container my-3 text-center skills">
         <h3 class="skillhead">SKILLS</h3>
-        <div class="skill1">
-            <!-- <span><i class="fab fa-bootstrap"></i></span> -->
-            <div>HTML5 & CSS3</div>
+        <div class="container skillset">
+            <div class="skill1">
+                <div class="html stack">
+                    <i class="fas fa-file-code"></i><br>
+                    <span>HTML5</span>
+                </div>
+                <div class="css stack">
+                    <i class="fab fa-css3-alt"></i><br>
+                    <span>CSS3</span>
+                </div>
+                <div class="Javascript stack">
+                    <i class="fab fa-js-square"></i><br>
+                    <span>Javascript</span>
+                </div>
+                <div class="react stack">
+                    <i class="fab fa-reacteurope"></i><br>
+                    <span>React</span>
+                </div>
+            </div>
+            <br><br><br>
+            <div class="skill2">
+                <div class="git stack">
+                    <i class="fab fa-git"></i><br>
+                    <span>Git</span>
+                </div>
+                <div class="firebase stack">
+                    <i class="fas fa-fire-alt"></i><br>
+                    <span>Firebase</span>
+                </div>
+                <div class="jquery stack">
+                    <i class="fab fa-jsfiddle"></i><br>
+                    <span>Jquery</span>
+                </div>
+                <div class="bootstrap stack">
+                    <i class="fab fa-bootstrap"></i><br>
+                    <span>Bootstrap</span>
+                </div>
+            </div>
+            <!-- <br><br><br>
+            <div class="skill3">
+                
+            </div>
+            <div class="skill4">
+                
+            </div> -->
+        
         </div>
-        <div class="skill2">
-            <!-- <span><i class="fab fa-bootstrap"></i></span> -->
-            <div>Javascript</div>
-        </div>
-        <div class="skill3">
-            <!-- <span><i class="fab fa-bootstrap"></i></span> -->
-            <div>React</div>
-        </div>
-        <div class="skill4">
-            <!-- <span><i class="fab fa-bootstrap"></i></span> -->
-            <div>JQuery</div>
-        </div>
-        <div class="skill5">
-            <!-- <span><i class="fab fa-bootstrap"></i></span> -->
-            <div>Bootstrap</div>
-        </div>
-        <div class="skill6">
-            <!-- <span><i class="fab fa-bootstrap"></i></span> -->
-            <div>Materialize</div>
-        </div>
+        
         <div class="resume">
             <a href="docs/AKINNUSI WILLIAMS BOLARINWA RESUME.docx" class="download" download="">DOWNLOAD RESUME</a>
             <a href="docs/AKINNUSI WILLIAMS BOLARINWA RESUME.docx" class="fas fa-download download" download=""></a>
