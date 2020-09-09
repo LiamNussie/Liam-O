@@ -89,6 +89,7 @@ footer {
 }
 .top-icons {
     overflow-x: hidden;
+    max-width: 100%;
 }
 
 .homex,
