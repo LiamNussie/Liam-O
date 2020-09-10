@@ -363,7 +363,7 @@ i {
 .hire-me {
     padding-top: 10px;
     margin-right: 15px;
-    font-size: 10px;
+    font-size: 13px;
 }
 .about-me {
     background-color: black;
@@ -371,7 +371,7 @@ i {
     border-radius: 20px;
     padding-top: 10px;
     letter-spacing: .1em !important;
-    font-size: 10px;
+    font-size: 13px;
 }
 .hire-me:focus {
     outline: none !important;
