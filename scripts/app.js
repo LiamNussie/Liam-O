@@ -5,13 +5,29 @@ const contact = document.querySelector('.contact');
 const navOpen = document.querySelector('.fa-bars');
 const navClose = document.querySelector('.fa-arrow-left');
 const slideBar = document.querySelector('.slide-bar');
-const home = document.querySelector('.homex');
-const about = document.querySelector('.aboutx');
-const projectsX = document.querySelector('.projectsx');
-const skills = document.querySelector('.skillsx');
-const contactX = document.querySelector('.contactx');
+const home = document.querySelector('.homexx');
+const about = document.querySelector('.aboutxx');
+const projectsX = document.querySelector('.projectsxx');
+const skills = document.querySelector('.skillsxx');
+const contactX = document.querySelector('.contactxx');
 const avatar = document.querySelector('.avatar');
 const resume = document.querySelector('.resume');
+const nav = document.querySelector('.nav');
+const menu = document.querySelector('#menu');
+
+// Navigation
+
+menu.addEventListener('click', () => {
+    nav.style.display = 'block';
+});
+
+function onClickMenu(){
+	document.getElementById("menu").classList.toggle("change");
+	document.getElementById("nav").classList.toggle("change");
+	
+	document.getElementById("menu-bg").classList.toggle("change-bg");
+}
+
 
 arrowDown.addEventListener('click', () => {
     projects.scrollIntoView({ behavior: 'smooth', block: 'end'});
@@ -21,93 +37,38 @@ hireMe.addEventListener('click', () => {
     contact.scrollIntoView({ behavior: 'smooth', block: 'end'});
 });
 
-navOpen.addEventListener('click', () => {
-    slideBar.style.animation = 'slideX 0.5s linear 1';
-    slideBar.style.transform = 'translateX(0)';
 
-    setTimeout(() => {
-        contactX.style.animation = 'dropDown 0.5s linear 1';
-        contactX.style.transform = 'scale(0.9) translateY(0)'
-    }, 500);
-
-    setTimeout(() => {
-        skills.style.animation = 'dropDown 0.5s linear 1';
-        skills.style.transform = 'scale(0.9) translateY(0)'
-    }, 900);
-
-    setTimeout(() => {
-        projectsX.style.animation = 'dropDown 0.5s linear 1';
-        projectsX.style.transform = 'scale(0.9) translateY(0)'
-    }, 1300);
-
-    setTimeout(() => {
-        about.style.animation = 'dropDown 0.5s linear 1';
-        about.style.transform = 'scale(0.9) translateY(0)'
-    }, 1700);
-
-    setTimeout(() => {
-        home.style.animation = 'dropDown 0.5s linear 1';
-        home.style.transform = 'scale(0.9) translateY(0)'
-    }, 2100);
-    
-});
-
-navClose.addEventListener('click', () => {
-    setTimeout(() => {
-        slideBar.style.animation = 'slideoutX 0.5s linear 1';
-        slideBar.style.transform = 'translateX(-1000%)';
-    }, 2150);
-    
-        home.style.animation = 'floatOut 0.5s linear 1';
-        home.style.transform = 'scale(0.9) translateY(-1000%)'
-       
-    setTimeout(() => {
-        about.style.animation = 'floatOut 0.5s linear 1';
-        about.style.transform = 'scale(0.9) translateY(-1000%)'
-    }, 400);
-
-    setTimeout(() => {
-        projectsX.style.animation = 'floatOut 0.5s linear 1';
-        projectsX.style.transform = 'scale(0.9) translateY(-1000%)'
-    }, 900);
-
-    setTimeout(() => {
-        skills.style.animation = 'floatOut 0.5s linear 1';
-        skills.style.transform = 'scale(0.9) translateY(-1000%)'
-    }, 1300);
-
-    setTimeout(() => {
-        contactX.style.animation = 'floatOut 0.5s linear 1';
-        contactX.style.transform = 'scale(0.9) translateY(-1000%)'
-    }, 1700);
-});
 
 home.addEventListener('click', e => {
-    slideBar.style.animation = 'slideoutX 0.5s linear 1';
-    slideBar.style.transform = 'translateX(-100%)';
-    // scrollIntoView({ behavior: 'smooth', block: 'end'});
+    document.getElementById("menu-bg").classList.toggle("change-bg");
+    nav.style.display = 'none';
+    document.getElementById("menu").classList.toggle("change");
 });
 
 about.addEventListener('click', e => {
-    slideBar.style.animation = 'slideoutX 0.5s linear 1';
-    slideBar.style.transform = 'translateX(-100%)';
+    document.getElementById("menu-bg").classList.toggle("change-bg");
+    nav.style.display = 'none';
+    document.getElementById("menu").classList.toggle("change");
 });
 
 projectsX.addEventListener('click', e => {
-    slideBar.style.animation = 'slideoutX 0.5s linear 1';
-    slideBar.style.transform = 'translateX(-100%)';
+    document.getElementById("menu-bg").classList.toggle("change-bg");
+    nav.style.display = 'none';
+    document.getElementById("menu").classList.toggle("change");
     projects.scrollIntoView({ behavior: 'smooth', block: 'end'});
 });
 
 skills.addEventListener('click', e => {
-    slideBar.style.animation = 'slideoutX 0.5s linear 1';
-    slideBar.style.transform = 'translateX(-100%)';
+    document.getElementById("menu-bg").classList.toggle("change-bg");
+    nav.style.display = 'none';
+    document.getElementById("menu").classList.toggle("change");
     resume.scrollIntoView({ behavior: 'smooth', block: 'end'});
 });
 
 contactX.addEventListener('click', e => {
-    slideBar.style.animation = 'slideoutX 0.5s linear 1';
-    slideBar.style.transform = 'translateX(-100%)';
+    document.getElementById("menu-bg").classList.toggle("change-bg");
+    nav.style.display = 'none';
+    document.getElementById("menu").classList.toggle("change");
     contact.scrollIntoView({ behavior: 'smooth', block: 'end'});
 });
 
@@ -117,19 +78,6 @@ window.addEventListener('load', () => {
     }, 3000)
 });
 
-// Light and Dark Modes
-
-const lightMode = document.querySelector('.fa-lightbulb');
-const darkMode = document.querySelector('.fa-moon');
-
-lightMode.addEventListener('click', () => {
-    lightMode.style.display = 'none';
-    darkMode.style.display = 'inline';
-});
-darkMode.addEventListener('click', () => {
-    darkMode.style.display = 'none';
-    lightMode.style.display = 'inline';
-});
 
 // More Info
 
@@ -192,3 +140,8 @@ infoClose4.addEventListener('click', () => {
         infoText4.style.display = 'none';
     }, 1000); 
 });
+
+
+
+
+
