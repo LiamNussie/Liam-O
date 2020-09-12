@@ -14,12 +14,20 @@ const avatar = document.querySelector('.avatar');
 const resume = document.querySelector('.resume');
 const nav = document.querySelector('.nav');
 const menu = document.querySelector('#menu');
+const menuBg = document.querySelector('#menu-bg');
+const change = document.querySelector('.change');
 
 // Navigation
 
 menu.addEventListener('click', () => {
     nav.style.display = 'block';
+    if(menuBg.classList.contains('change-bg')){
+        nav.style.display = 'block';
+    } else{
+        nav.style.display = 'none';
+    }
 });
+
 
 function onClickMenu(){
 	document.getElementById("menu").classList.toggle("change");
