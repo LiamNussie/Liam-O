@@ -594,6 +594,12 @@ input[type="tel"]::placeholder {
     opacity: 1 !important;
     padding-right: 10px;
 }
+.fa-envelope {
+    padding-right: 0 !important;
+}
+.mail {
+    letter-spacing: 1 !important;
+}
 .mail,
 .phone {
     font-size: 20px;
