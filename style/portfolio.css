@@ -882,13 +882,7 @@ footer {
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 480px) {
-    #logo {
-        transform: scale(0.7);
-        top: 80%;
-        left: 80%;
-        transform: translate(-80%,-80%);
-        animation: blurOut 1s ease 1 forwards 3s;
-    }
+    
     i {
         font-size: 2em;
         margin-bottom: 0;
