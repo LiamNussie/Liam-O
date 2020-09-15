@@ -153,9 +153,9 @@ infoClose4.addEventListener('click', () => {
 const overall = document.querySelector('.overall-container');
 
 window.addEventListener('load', () => {
-    // setTimeout(() => {
-    //     overall.style.display = 'block';
-    // }, 3500)
+    setTimeout(() => {
+        overall.style.display = 'block';
+    }, 3500)
 });
 
 
