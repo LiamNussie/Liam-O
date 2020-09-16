@@ -220,11 +220,14 @@ body {
 .top-icons {
     overflow-x: hidden;
     margin-top: -200px;
+    width: 120vw;
+    transform: translateX(-180px);
 }
 
 .top-btns {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-top: 100px;
 }
 .avatar {
     display: none;
@@ -352,7 +355,7 @@ i {
 }
 .hire-me {
     padding-top: 10px;
-    margin-right: 15px;
+    /* margin-right: 15px; */
     font-size: 13px;
 }
 .about-me {
@@ -930,10 +933,7 @@ footer {
     h1 {
         font-size: 2.8em;
     }
-    /* .projects {
-        margin-bottom: 200px;
-    }
-     */
+   
 }
 @media only screen and (min-width: 960px) {
 
@@ -1019,6 +1019,10 @@ footer {
     }
 }
 
-
+@media only screen and (min-width: 768px) {
+    .top-btns {
+        margin-top: 5px;
+    }
+}
 
 

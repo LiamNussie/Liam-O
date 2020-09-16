@@ -1,12 +1,14 @@
 const arrowDown = document.querySelector('.arrow-down');
 const projects = document.querySelector('.box1');
 const hireMe = document.querySelector('.hire-me');
+const aboutMe = document.querySelector('.about-me');
 const contact = document.querySelector('.contact');
 const navOpen = document.querySelector('.fa-bars');
 const navClose = document.querySelector('.fa-arrow-left');
 const slideBar = document.querySelector('.slide-bar');
 const home = document.querySelector('.homexx');
 const about = document.querySelector('.aboutxx');
+const aboutHead = document.querySelector('.about-para #end');
 const projectsX = document.querySelector('.projectsxx');
 const skills = document.querySelector('.skillsxx');
 const contactX = document.querySelector('.contactxx');
@@ -45,6 +47,10 @@ hireMe.addEventListener('click', () => {
     contact.scrollIntoView({ behavior: 'smooth', block: 'end'});
 });
 
+aboutMe.addEventListener('click', () => {
+    aboutHead.scrollIntoView({ behavior: 'smooth', block: 'end'});
+});
+
 
 
 home.addEventListener('click', e => {
@@ -57,6 +63,7 @@ about.addEventListener('click', e => {
     document.getElementById("menu-bg").classList.toggle("change-bg");
     nav.style.display = 'none';
     document.getElementById("menu").classList.toggle("change");
+    aboutHead.scrollIntoView({ behavior: 'smooth', block: 'end'});
 });
 
 projectsX.addEventListener('click', e => {
