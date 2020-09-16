@@ -1,296 +1,354 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style/portfolio.css">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style/portfolio.css">
+    </head>
+    <body>
 
-    <div class="name-anim">
-        <svg id="logo" width="330" height="60" viewBox="0 0 552 77" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <mask id="path-1-outside-1" maskUnits="userSpaceOnUse" x="0.391998" y="0.223999" width="551" height="77" fill="black">
-            <rect fill="white" x="0.391998" y="0.223999" width="551" height="77"/>
-            <path d="M13.128 64.896H36.552V72H4.392V5.088H13.128V64.896Z"/>
-            <path d="M54.5655 5.088V72H45.8295V5.088H54.5655Z"/>
-            <path d="M109.007 57.12H79.8225L74.4465 72H65.2305L89.4225 5.472H99.5025L123.599 72H114.382L109.007 57.12ZM106.511 50.016L94.4145 16.224L82.3185 50.016H106.511Z"/>
-            <path id="temp" d="M202.014 5.56799V72H193.278V22.464L171.198 72H165.054L142.878 22.368V72H134.142V5.56799H143.55L168.126 60.48L192.702 5.56799H202.014Z"/>
-            <path d="M295.031 72H286.295L251.159 18.72V72H242.423V4.992H251.159L286.295 58.176V4.992H295.031V72Z"/>
-            <path d="M318.467 5.088V47.424C318.467 53.376 319.907 57.792 322.787 60.672C325.731 63.552 329.795 64.992 334.979 64.992C340.099 64.992 344.099 63.552 346.979 60.672C349.923 57.792 351.395 53.376 351.395 47.424V5.088H360.131V47.328C360.131 52.896 359.011 57.6 356.771 61.44C354.531 65.216 351.491 68.032 347.651 69.888C343.875 71.744 339.619 72.672 334.883 72.672C330.147 72.672 325.859 71.744 322.019 69.888C318.243 68.032 315.235 65.216 312.995 61.44C310.819 57.6 309.731 52.896 309.731 47.328V5.088H318.467Z"/>
-            <path d="M395.921 72.672C391.505 72.672 387.537 71.904 384.017 70.368C380.561 68.768 377.841 66.592 375.857 63.84C373.873 61.024 372.849 57.792 372.785 54.144H382.096C382.416 57.28 383.696 59.936 385.936 62.112C388.24 64.224 391.569 65.28 395.921 65.28C400.081 65.28 403.344 64.256 405.712 62.208C408.144 60.096 409.361 57.408 409.361 54.144C409.361 51.584 408.657 49.504 407.249 47.904C405.841 46.304 404.081 45.088 401.969 44.256C399.857 43.424 397.008 42.528 393.424 41.568C389.008 40.416 385.456 39.264 382.768 38.112C380.144 36.96 377.873 35.168 375.953 32.736C374.097 30.24 373.168 26.912 373.168 22.752C373.168 19.104 374.097 15.872 375.953 13.056C377.809 10.24 380.401 8.064 383.729 6.528C387.121 4.992 390.993 4.224 395.345 4.224C401.617 4.224 406.736 5.79199 410.704 8.92799C414.736 12.064 417.009 16.224 417.521 21.408H407.921C407.601 18.848 406.256 16.608 403.888 14.688C401.52 12.704 398.384 11.712 394.48 11.712C390.832 11.712 387.856 12.672 385.552 14.592C383.248 16.448 382.096 19.072 382.096 22.464C382.096 24.896 382.768 26.88 384.112 28.416C385.52 29.952 387.217 31.136 389.201 31.968C391.249 32.736 394.097 33.632 397.745 34.656C402.161 35.872 405.713 37.088 408.401 38.304C411.089 39.456 413.393 41.28 415.312 43.776C417.233 46.208 418.193 49.536 418.193 53.76C418.193 57.024 417.328 60.096 415.6 62.976C413.872 65.856 411.313 68.192 407.921 69.984C404.529 71.776 400.529 72.672 395.921 72.672Z"/>
-            <path d="M452.264 72.672C447.848 72.672 443.88 71.904 440.36 70.368C436.904 68.768 434.184 66.592 432.2 63.84C430.216 61.024 429.192 57.792 429.128 54.144H438.44C438.76 57.28 440.04 59.936 442.28 62.112C444.584 64.224 447.912 65.28 452.264 65.28C456.424 65.28 459.688 64.256 462.056 62.208C464.488 60.096 465.704 57.408 465.704 54.144C465.704 51.584 465 49.504 463.592 47.904C462.184 46.304 460.424 45.088 458.312 44.256C456.2 43.424 453.352 42.528 449.768 41.568C445.352 40.416 441.8 39.264 439.112 38.112C436.488 36.96 434.216 35.168 432.296 32.736C430.44 30.24 429.512 26.912 429.512 22.752C429.512 19.104 430.44 15.872 432.296 13.056C434.152 10.24 436.744 8.064 440.072 6.528C443.464 4.992 447.336 4.224 451.688 4.224C457.96 4.224 463.08 5.79199 467.048 8.92799C471.08 12.064 473.352 16.224 473.864 21.408H464.264C463.944 18.848 462.6 16.608 460.232 14.688C457.864 12.704 454.728 11.712 450.824 11.712C447.176 11.712 444.2 12.672 441.896 14.592C439.592 16.448 438.44 19.072 438.44 22.464C438.44 24.896 439.112 26.88 440.456 28.416C441.864 29.952 443.56 31.136 445.544 31.968C447.592 32.736 450.44 33.632 454.088 34.656C458.504 35.872 462.056 37.088 464.744 38.304C467.432 39.456 469.736 41.28 471.656 43.776C473.576 46.208 474.536 49.536 474.536 53.76C474.536 57.024 473.672 60.096 471.944 62.976C470.216 65.856 467.656 68.192 464.264 69.984C460.872 71.776 456.872 72.672 452.264 72.672Z"/>
-            <path d="M496.128 5.088V72H487.392V5.088H496.128Z"/>
-            <path d="M519.753 12.192V34.56H544.137V41.76H519.753V64.8H547.017V72H511.017V4.992H547.017V12.192H519.753Z"/>
-            </mask>
-            <path d="M13.128 64.896H36.552V72H4.392V5.088H13.128V64.896Z" stroke="green" stroke-width="8" mask="url(#path-1-outside-1)"/>
-            <path d="M54.5655 5.088V72H45.8295V5.088H54.5655Z" stroke="green" stroke-width="8" mask="url(#path-1-outside-1)"/>
-            <path d="M109.007 57.12H79.8225L74.4465 72H65.2305L89.4225 5.472H99.5025L123.599 72H114.382L109.007 57.12ZM106.511 50.016L94.4145 16.224L82.3185 50.016H106.511Z" stroke="green" stroke-width="8" mask="url(#path-1-outside-1)"/>
-            <path d="M202.014 5.56799V72H193.278V22.464L171.198 72H165.054L142.878 22.368V72H134.142V5.56799H143.55L168.126 60.48L192.702 5.56799H202.014Z" stroke="green" stroke-width="8" mask="url(#path-1-outside-1)"/>
-            <path d="M295.031 72H286.295L251.159 18.72V72H242.423V4.992H251.159L286.295 58.176V4.992H295.031V72Z" stroke="green" stroke-width="8" mask="url(#path-1-outside-1)"/>
-            <path d="M318.467 5.088V47.424C318.467 53.376 319.907 57.792 322.787 60.672C325.731 63.552 329.795 64.992 334.979 64.992C340.099 64.992 344.099 63.552 346.979 60.672C349.923 57.792 351.395 53.376 351.395 47.424V5.088H360.131V47.328C360.131 52.896 359.011 57.6 356.771 61.44C354.531 65.216 351.491 68.032 347.651 69.888C343.875 71.744 339.619 72.672 334.883 72.672C330.147 72.672 325.859 71.744 322.019 69.888C318.243 68.032 315.235 65.216 312.995 61.44C310.819 57.6 309.731 52.896 309.731 47.328V5.088H318.467Z" stroke="green" stroke-width="8" mask="url(#path-1-outside-1)"/>
-            <path d="M395.921 72.672C391.505 72.672 387.537 71.904 384.017 70.368C380.561 68.768 377.841 66.592 375.857 63.84C373.873 61.024 372.849 57.792 372.785 54.144H382.096C382.416 57.28 383.696 59.936 385.936 62.112C388.24 64.224 391.569 65.28 395.921 65.28C400.081 65.28 403.344 64.256 405.712 62.208C408.144 60.096 409.361 57.408 409.361 54.144C409.361 51.584 408.657 49.504 407.249 47.904C405.841 46.304 404.081 45.088 401.969 44.256C399.857 43.424 397.008 42.528 393.424 41.568C389.008 40.416 385.456 39.264 382.768 38.112C380.144 36.96 377.873 35.168 375.953 32.736C374.097 30.24 373.168 26.912 373.168 22.752C373.168 19.104 374.097 15.872 375.953 13.056C377.809 10.24 380.401 8.064 383.729 6.528C387.121 4.992 390.993 4.224 395.345 4.224C401.617 4.224 406.736 5.79199 410.704 8.92799C414.736 12.064 417.009 16.224 417.521 21.408H407.921C407.601 18.848 406.256 16.608 403.888 14.688C401.52 12.704 398.384 11.712 394.48 11.712C390.832 11.712 387.856 12.672 385.552 14.592C383.248 16.448 382.096 19.072 382.096 22.464C382.096 24.896 382.768 26.88 384.112 28.416C385.52 29.952 387.217 31.136 389.201 31.968C391.249 32.736 394.097 33.632 397.745 34.656C402.161 35.872 405.713 37.088 408.401 38.304C411.089 39.456 413.393 41.28 415.312 43.776C417.233 46.208 418.193 49.536 418.193 53.76C418.193 57.024 417.328 60.096 415.6 62.976C413.872 65.856 411.313 68.192 407.921 69.984C404.529 71.776 400.529 72.672 395.921 72.672Z" stroke="green" stroke-width="8" mask="url(#path-1-outside-1)"/>
-            <path d="M452.264 72.672C447.848 72.672 443.88 71.904 440.36 70.368C436.904 68.768 434.184 66.592 432.2 63.84C430.216 61.024 429.192 57.792 429.128 54.144H438.44C438.76 57.28 440.04 59.936 442.28 62.112C444.584 64.224 447.912 65.28 452.264 65.28C456.424 65.28 459.688 64.256 462.056 62.208C464.488 60.096 465.704 57.408 465.704 54.144C465.704 51.584 465 49.504 463.592 47.904C462.184 46.304 460.424 45.088 458.312 44.256C456.2 43.424 453.352 42.528 449.768 41.568C445.352 40.416 441.8 39.264 439.112 38.112C436.488 36.96 434.216 35.168 432.296 32.736C430.44 30.24 429.512 26.912 429.512 22.752C429.512 19.104 430.44 15.872 432.296 13.056C434.152 10.24 436.744 8.064 440.072 6.528C443.464 4.992 447.336 4.224 451.688 4.224C457.96 4.224 463.08 5.79199 467.048 8.92799C471.08 12.064 473.352 16.224 473.864 21.408H464.264C463.944 18.848 462.6 16.608 460.232 14.688C457.864 12.704 454.728 11.712 450.824 11.712C447.176 11.712 444.2 12.672 441.896 14.592C439.592 16.448 438.44 19.072 438.44 22.464C438.44 24.896 439.112 26.88 440.456 28.416C441.864 29.952 443.56 31.136 445.544 31.968C447.592 32.736 450.44 33.632 454.088 34.656C458.504 35.872 462.056 37.088 464.744 38.304C467.432 39.456 469.736 41.28 471.656 43.776C473.576 46.208 474.536 49.536 474.536 53.76C474.536 57.024 473.672 60.096 471.944 62.976C470.216 65.856 467.656 68.192 464.264 69.984C460.872 71.776 456.872 72.672 452.264 72.672Z" stroke="green" stroke-width="8" mask="url(#path-1-outside-1)"/>
-            <path d="M496.128 5.088V72H487.392V5.088H496.128Z" stroke="green" stroke-width="8" mask="url(#path-1-outside-1)"/>
-            <path d="M519.753 12.192V34.56H544.137V41.76H519.753V64.8H547.017V72H511.017V4.992H547.017V12.192H519.753Z" stroke="green" stroke-width="8" mask="url(#path-1-outside-1)"/>
-        </svg>
-    </div>
-
-    <div class="overall-container">
-    
-        <div id="menu-bar">
-			<div id="menu" onclick="onClickMenu()">
-				<div id="bar1" class="bar"></div>
-				<div id="bar2" class="bar"></div>
-				<div id="bar3" class="bar"></div>
-            </div>
-            
-			<ul class="nav navx" id="nav">
-				<li class="homexx">Home</li>
-                <li class="aboutxx">About</li>
-                <li class="projectsxx">Projects</li>
-                <li class="skillsxx">Skills & Resume</li>
-                <li class="contactxx">Contact</li>
-			</ul>
-		</div>
-		<div class="menu-bg" id="menu-bg"></div>
-
-
-        
-        <div class="logo">
-            <img class="logo-dark" src="images/logo-dark.jpg" alt="">
+        <div class="name-anim">
+            <svg id="logo" width="330" height="60" viewBox="0 0 552 77" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <mask id="path-1-outside-1" maskUnits="userSpaceOnUse" x="0.391998" y="0.223999" width="551" height="77" fill="black">
+                <rect fill="white" x="0.391998" y="0.223999" width="551" height="77"/>
+                <path d="M13.128 64.896H36.552V72H4.392V5.088H13.128V64.896Z"/>
+                <path d="M54.5655 5.088V72H45.8295V5.088H54.5655Z"/>
+                <path d="M109.007 57.12H79.8225L74.4465 72H65.2305L89.4225 5.472H99.5025L123.599 72H114.382L109.007 57.12ZM106.511 50.016L94.4145 16.224L82.3185 50.016H106.511Z"/>
+                <path id="temp" d="M202.014 5.56799V72H193.278V22.464L171.198 72H165.054L142.878 22.368V72H134.142V5.56799H143.55L168.126 60.48L192.702 5.56799H202.014Z"/>
+                <path d="M295.031 72H286.295L251.159 18.72V72H242.423V4.992H251.159L286.295 58.176V4.992H295.031V72Z"/>
+                <path d="M318.467 5.088V47.424C318.467 53.376 319.907 57.792 322.787 60.672C325.731 63.552 329.795 64.992 334.979 64.992C340.099 64.992 344.099 63.552 346.979 60.672C349.923 57.792 351.395 53.376 351.395 47.424V5.088H360.131V47.328C360.131 52.896 359.011 57.6 356.771 61.44C354.531 65.216 351.491 68.032 347.651 69.888C343.875 71.744 339.619 72.672 334.883 72.672C330.147 72.672 325.859 71.744 322.019 69.888C318.243 68.032 315.235 65.216 312.995 61.44C310.819 57.6 309.731 52.896 309.731 47.328V5.088H318.467Z"/>
+                <path d="M395.921 72.672C391.505 72.672 387.537 71.904 384.017 70.368C380.561 68.768 377.841 66.592 375.857 63.84C373.873 61.024 372.849 57.792 372.785 54.144H382.096C382.416 57.28 383.696 59.936 385.936 62.112C388.24 64.224 391.569 65.28 395.921 65.28C400.081 65.28 403.344 64.256 405.712 62.208C408.144 60.096 409.361 57.408 409.361 54.144C409.361 51.584 408.657 49.504 407.249 47.904C405.841 46.304 404.081 45.088 401.969 44.256C399.857 43.424 397.008 42.528 393.424 41.568C389.008 40.416 385.456 39.264 382.768 38.112C380.144 36.96 377.873 35.168 375.953 32.736C374.097 30.24 373.168 26.912 373.168 22.752C373.168 19.104 374.097 15.872 375.953 13.056C377.809 10.24 380.401 8.064 383.729 6.528C387.121 4.992 390.993 4.224 395.345 4.224C401.617 4.224 406.736 5.79199 410.704 8.92799C414.736 12.064 417.009 16.224 417.521 21.408H407.921C407.601 18.848 406.256 16.608 403.888 14.688C401.52 12.704 398.384 11.712 394.48 11.712C390.832 11.712 387.856 12.672 385.552 14.592C383.248 16.448 382.096 19.072 382.096 22.464C382.096 24.896 382.768 26.88 384.112 28.416C385.52 29.952 387.217 31.136 389.201 31.968C391.249 32.736 394.097 33.632 397.745 34.656C402.161 35.872 405.713 37.088 408.401 38.304C411.089 39.456 413.393 41.28 415.312 43.776C417.233 46.208 418.193 49.536 418.193 53.76C418.193 57.024 417.328 60.096 415.6 62.976C413.872 65.856 411.313 68.192 407.921 69.984C404.529 71.776 400.529 72.672 395.921 72.672Z"/>
+                <path d="M452.264 72.672C447.848 72.672 443.88 71.904 440.36 70.368C436.904 68.768 434.184 66.592 432.2 63.84C430.216 61.024 429.192 57.792 429.128 54.144H438.44C438.76 57.28 440.04 59.936 442.28 62.112C444.584 64.224 447.912 65.28 452.264 65.28C456.424 65.28 459.688 64.256 462.056 62.208C464.488 60.096 465.704 57.408 465.704 54.144C465.704 51.584 465 49.504 463.592 47.904C462.184 46.304 460.424 45.088 458.312 44.256C456.2 43.424 453.352 42.528 449.768 41.568C445.352 40.416 441.8 39.264 439.112 38.112C436.488 36.96 434.216 35.168 432.296 32.736C430.44 30.24 429.512 26.912 429.512 22.752C429.512 19.104 430.44 15.872 432.296 13.056C434.152 10.24 436.744 8.064 440.072 6.528C443.464 4.992 447.336 4.224 451.688 4.224C457.96 4.224 463.08 5.79199 467.048 8.92799C471.08 12.064 473.352 16.224 473.864 21.408H464.264C463.944 18.848 462.6 16.608 460.232 14.688C457.864 12.704 454.728 11.712 450.824 11.712C447.176 11.712 444.2 12.672 441.896 14.592C439.592 16.448 438.44 19.072 438.44 22.464C438.44 24.896 439.112 26.88 440.456 28.416C441.864 29.952 443.56 31.136 445.544 31.968C447.592 32.736 450.44 33.632 454.088 34.656C458.504 35.872 462.056 37.088 464.744 38.304C467.432 39.456 469.736 41.28 471.656 43.776C473.576 46.208 474.536 49.536 474.536 53.76C474.536 57.024 473.672 60.096 471.944 62.976C470.216 65.856 467.656 68.192 464.264 69.984C460.872 71.776 456.872 72.672 452.264 72.672Z"/>
+                <path d="M496.128 5.088V72H487.392V5.088H496.128Z"/>
+                <path d="M519.753 12.192V34.56H544.137V41.76H519.753V64.8H547.017V72H511.017V4.992H547.017V12.192H519.753Z"/>
+                </mask>
+                <path d="M13.128 64.896H36.552V72H4.392V5.088H13.128V64.896Z" stroke="green" stroke-width="8" mask="url(#path-1-outside-1)"/>
+                <path d="M54.5655 5.088V72H45.8295V5.088H54.5655Z" stroke="green" stroke-width="8" mask="url(#path-1-outside-1)"/>
+                <path d="M109.007 57.12H79.8225L74.4465 72H65.2305L89.4225 5.472H99.5025L123.599 72H114.382L109.007 57.12ZM106.511 50.016L94.4145 16.224L82.3185 50.016H106.511Z" stroke="green" stroke-width="8" mask="url(#path-1-outside-1)"/>
+                <path d="M202.014 5.56799V72H193.278V22.464L171.198 72H165.054L142.878 22.368V72H134.142V5.56799H143.55L168.126 60.48L192.702 5.56799H202.014Z" stroke="green" stroke-width="8" mask="url(#path-1-outside-1)"/>
+                <path d="M295.031 72H286.295L251.159 18.72V72H242.423V4.992H251.159L286.295 58.176V4.992H295.031V72Z" stroke="green" stroke-width="8" mask="url(#path-1-outside-1)"/>
+                <path d="M318.467 5.088V47.424C318.467 53.376 319.907 57.792 322.787 60.672C325.731 63.552 329.795 64.992 334.979 64.992C340.099 64.992 344.099 63.552 346.979 60.672C349.923 57.792 351.395 53.376 351.395 47.424V5.088H360.131V47.328C360.131 52.896 359.011 57.6 356.771 61.44C354.531 65.216 351.491 68.032 347.651 69.888C343.875 71.744 339.619 72.672 334.883 72.672C330.147 72.672 325.859 71.744 322.019 69.888C318.243 68.032 315.235 65.216 312.995 61.44C310.819 57.6 309.731 52.896 309.731 47.328V5.088H318.467Z" stroke="green" stroke-width="8" mask="url(#path-1-outside-1)"/>
+                <path d="M395.921 72.672C391.505 72.672 387.537 71.904 384.017 70.368C380.561 68.768 377.841 66.592 375.857 63.84C373.873 61.024 372.849 57.792 372.785 54.144H382.096C382.416 57.28 383.696 59.936 385.936 62.112C388.24 64.224 391.569 65.28 395.921 65.28C400.081 65.28 403.344 64.256 405.712 62.208C408.144 60.096 409.361 57.408 409.361 54.144C409.361 51.584 408.657 49.504 407.249 47.904C405.841 46.304 404.081 45.088 401.969 44.256C399.857 43.424 397.008 42.528 393.424 41.568C389.008 40.416 385.456 39.264 382.768 38.112C380.144 36.96 377.873 35.168 375.953 32.736C374.097 30.24 373.168 26.912 373.168 22.752C373.168 19.104 374.097 15.872 375.953 13.056C377.809 10.24 380.401 8.064 383.729 6.528C387.121 4.992 390.993 4.224 395.345 4.224C401.617 4.224 406.736 5.79199 410.704 8.92799C414.736 12.064 417.009 16.224 417.521 21.408H407.921C407.601 18.848 406.256 16.608 403.888 14.688C401.52 12.704 398.384 11.712 394.48 11.712C390.832 11.712 387.856 12.672 385.552 14.592C383.248 16.448 382.096 19.072 382.096 22.464C382.096 24.896 382.768 26.88 384.112 28.416C385.52 29.952 387.217 31.136 389.201 31.968C391.249 32.736 394.097 33.632 397.745 34.656C402.161 35.872 405.713 37.088 408.401 38.304C411.089 39.456 413.393 41.28 415.312 43.776C417.233 46.208 418.193 49.536 418.193 53.76C418.193 57.024 417.328 60.096 415.6 62.976C413.872 65.856 411.313 68.192 407.921 69.984C404.529 71.776 400.529 72.672 395.921 72.672Z" stroke="green" stroke-width="8" mask="url(#path-1-outside-1)"/>
+                <path d="M452.264 72.672C447.848 72.672 443.88 71.904 440.36 70.368C436.904 68.768 434.184 66.592 432.2 63.84C430.216 61.024 429.192 57.792 429.128 54.144H438.44C438.76 57.28 440.04 59.936 442.28 62.112C444.584 64.224 447.912 65.28 452.264 65.28C456.424 65.28 459.688 64.256 462.056 62.208C464.488 60.096 465.704 57.408 465.704 54.144C465.704 51.584 465 49.504 463.592 47.904C462.184 46.304 460.424 45.088 458.312 44.256C456.2 43.424 453.352 42.528 449.768 41.568C445.352 40.416 441.8 39.264 439.112 38.112C436.488 36.96 434.216 35.168 432.296 32.736C430.44 30.24 429.512 26.912 429.512 22.752C429.512 19.104 430.44 15.872 432.296 13.056C434.152 10.24 436.744 8.064 440.072 6.528C443.464 4.992 447.336 4.224 451.688 4.224C457.96 4.224 463.08 5.79199 467.048 8.92799C471.08 12.064 473.352 16.224 473.864 21.408H464.264C463.944 18.848 462.6 16.608 460.232 14.688C457.864 12.704 454.728 11.712 450.824 11.712C447.176 11.712 444.2 12.672 441.896 14.592C439.592 16.448 438.44 19.072 438.44 22.464C438.44 24.896 439.112 26.88 440.456 28.416C441.864 29.952 443.56 31.136 445.544 31.968C447.592 32.736 450.44 33.632 454.088 34.656C458.504 35.872 462.056 37.088 464.744 38.304C467.432 39.456 469.736 41.28 471.656 43.776C473.576 46.208 474.536 49.536 474.536 53.76C474.536 57.024 473.672 60.096 471.944 62.976C470.216 65.856 467.656 68.192 464.264 69.984C460.872 71.776 456.872 72.672 452.264 72.672Z" stroke="green" stroke-width="8" mask="url(#path-1-outside-1)"/>
+                <path d="M496.128 5.088V72H487.392V5.088H496.128Z" stroke="green" stroke-width="8" mask="url(#path-1-outside-1)"/>
+                <path d="M519.753 12.192V34.56H544.137V41.76H519.753V64.8H547.017V72H511.017V4.992H547.017V12.192H519.753Z" stroke="green" stroke-width="8" mask="url(#path-1-outside-1)"/>
+            </svg>
         </div>
-       
+
+        <div class="overall-container">
+        
+            <div id="menu-bar">
+                <div id="menu" onclick="onClickMenu()">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+                
+                <ul class="nav navx" id="nav">
+                    <li class="homexx">Home</li>
+                    <li class="aboutxx">About</li>
+                    <li class="projectsxx">Projects</li>
+                    <li class="skillsxx">Skills & Resume</li>
+                    <li class="contactxx">Contact</li>
+                </ul>
+            </div>
+            <div class="menu-bg" id="menu-bg"></div>
 
 
-    
-    
-        <div class="container my-4 page-area text-center">
-    
-            <img class="avatar animate__animated animate__tada animate__slower" src="images/avatar.png" alt="">
-    
-    
-            <div class="name-area">
-                <p class="heading-intro animate__animated animate__fadein animate__slower animate__delay-.5s">Hello I'm </p>
-                <h1 class="animate__animated animate__fadein animate__slower animate__delay-1s">LIAM NUSSIE</h1>
-                <p class="job animate__animated animate__fadein animate__slower animate__delay-2s">WEB DEVELOPER</p>
             
-                <div class="top-icons">
-                    <div class="icon1">
-                        <i class="fab fa-react"></i><i class="fab fa-font-awesome-flag"></i><i class="fab fa-html5"></i>
-                    </div>
-                    <div class="icon2">
-                        <i class="fab fa-js"></i><i class="fab fa-node"></i><i class="fab fa-python"></i>
-                    </div>
-                    <div class="icon3">
-                        <i class="fab fa-css3"></i><i class="fab fa-git-square"></i><i class="fab fa-angular"></i>
-                    </div>
-                    <div class="icon4">
-                        <i class="fab fa-php"></i><i class="fab fa-sass"></i>
-                    </div>         
-                </div>
-                
-                <div class="top-btns">
-                    <button class="hire-me btn animate__animated animate__fadein animate__slower animate__delay-3s">HIRE ME</button>
-                <button class="about-me btn animate__animated animate__fadein animate__slower animate__delay-3s">ABOUT ME</button>
-                </div>
-                
+            <div class="logo">
+                <img class="logo-dark" src="images/logo-dark.jpg" alt="">
             </div>
         
-                <div class="arrow-down">
-                    <i class="fas fa-angle-double-down animate__animated animate__heartbeat animate__infinite animate__faster animate__delay-3s"></i>
-                </div>
+
+
+        
+        
+            <div class="container my-4 page-area text-center">
+        
+                <img class="avatar animate__animated animate__tada animate__slower" src="images/avatar.png" alt="">
+        
+        
+                <div class="name-area">
+                    <p class="heading-intro animate__animated animate__fadein animate__slower animate__delay-.5s">Hello I'm </p>
+                    <h1 class="animate__animated animate__fadein animate__slower animate__delay-1s">LIAM NUSSIE</h1>
+                    <p class="job animate__animated animate__fadein animate__slower animate__delay-2s">WEB DEVELOPER</p>
                 
-    
-    
+                    <div class="top-icons">
+                        <div class="icon1">
+                            <i class="fab fa-react"></i><i class="fab fa-font-awesome-flag"></i><i class="fab fa-html5"></i>
+                        </div>
+                        <div class="icon2">
+                            <i class="fab fa-js"></i><i class="fab fa-node"></i><i class="fab fa-python"></i>
+                        </div>
+                        <div class="icon3">
+                            <i class="fab fa-css3"></i><i class="fab fa-git-square"></i><i class="fab fa-angular"></i>
+                        </div>
+                        <div class="icon4">
+                            <i class="fab fa-php"></i><i class="fab fa-sass"></i>
+                        </div>         
+                    </div>
+                    
+                    <div class="top-btns">
+                        <button class="hire-me btn animate__animated animate__fadein animate__slower animate__delay-3s">HIRE ME</button>
+                    <button class="about-me btn animate__animated animate__fadein animate__slower animate__delay-3s">ABOUT ME</button>
+                    </div>
+                    
+                </div>
+            
+                    <div class="arrow-down">
+                        <i class="fas fa-angle-double-down animate__animated animate__heartbeat animate__infinite animate__faster animate__delay-3s"></i>
+                    </div>
+                    
+
+        
+            </div>
+
+            <h3 id="p-head">FEATURED PROJECTS</h3>
+
             <div class="projects">
-                <h3>FEATURED PROJECTS</h3>
-                    <div class="boxset1">
-                        <div class="container boxes">
-                            <div class="box1">
-                                <h2 class="project-name">CONVERSE CHAT</h2>
+                
+                <div class="box one box1">
+                    <div class="img one">
+                        <img src="images/bg1.jpg" alt="">
+                        <div class="info-text info-text1">
+                            <p class="info">A public chatroom application made with javascript and firebase.</p>
+                            <div class="info-btn info-btn1">close</div>
+                        </div>
+                    </div>
+                        <div class="p-bottom">
+                            <div class="p-title">
+                                <h2>CONVERSE</h2>
+                            </div>
+                            <div class="p-icons">
+                                <i class="fas fa-info-circle info1 animate__animated animate__tada animate__infinite animate__fast animate__delay-3s"></i>
                                 <a href="https://github.com/LiamNussie/Converse-chatroom" class="fab fa-github-square animate__animated animate__tada animate__infinite animate__fast animate__delay-3s"></a>
                                 <a href="https://converseapp.netlify.app" class="fas fa-link animate__animated animate__tada animate__infinite animate__fast animate__delay-3s"></a>
-                                <i class="fas fa-info-circle info1 animate__animated animate__tada animate__infinite animate__fast animate__delay-3s"></i>
-                                <div class="info-text1">
-                                    <p class="info">A public chatroom application made with javascript and firebase.</p>
-                                    <button class="btn info-close1">close</button>
-                                </div>
                             </div>
                         </div>
-    
-                        <div class="container boxes">
-                            <div class="box2">
-                                <a href="https://github.com/LiamNussie/Liam-Quiz-Project" class="fab fa-github-square animate__animated animate__tada animate__infinite animate__fast animate__delay-3s"></a>
-                                <a href="https://liamquiz.netlify.app" class="fas fa-link animate__animated animate__tada animate__infinite animate__fast animate__delay-3s"></a>
-                                <h2 class="project-name">LIAM QUIZ</h2>
-                                <i class="fas fa-info-circle info2 animate__animated animate__tada animate__infinite animate__fast animate__delay-3s"></i>
-                                <div class="info-text2">
-                                    <p class="info">A Quiz test web application about myself made with vanilla javascript.</p>
-                                    <button class="btn info-close2">close</button>
-                                </div>
+                </div>
+
+                <div class="box two box2">
+                    <div class="img two">
+                        <img src="images/bg6.jpg" alt="">
+                    </div>
+                    <div class="info-text info-text2">
+                        <p class="info">An e-commerce online wristwatch store made with react.</p>
+                        <div class="info-btn info-btn2">close</div>
+                    </div>
+                    <div class="p-bottom">
+                            <div class="p-title">
+                                <h2>WRIXTY</h2>
                             </div>
+                            <div class="p-icons">
+                                <i class="fas fa-info-circle info animate__animated animate__tada animate__infinite animate__fast animate__delay-3s"></i>
+                                <a href="https://github.com/LiamNussie/wrixty-store" class="fab fa-github-square animate__animated animate__tada animate__infinite animate__fast animate__delay-3s"></a>
+                                <a href="https://wrixty.netlify.app" class="fas fa-link animate__animated animate__tada animate__infinite animate__fast animate__delay-3s"></a>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="box three box3">
+                    <div class="img three">
+                        <img src="images/bg5.jpg" alt="">
+                    </div>
+                    <div class="info-text info-text3">
+                        <p class="info">Landing page of a website for gamers, with sales of computers and consoles.</p>
+                        <div class="info-btn info-btn3">close</div>
+                    </div>
+                    <div class="p-bottom">
+                        <div class="p-title">
+                            <h2>GAMERX</h2>
+                        </div>
+                        <div class="p-icons">
+                            <i class="fas fa-info-circle info1 animate__animated animate__tada animate__infinite animate__fast animate__delay-3s"></i>
+                            <a href="https://github.com/LiamNussie/Gamers-website" class="fab fa-github-square animate__animated animate__tada animate__infinite animate__fast animate__delay-3s"></a>
+                            <a href="https://gamerx.netlify.app" class="fas fa-link animate__animated animate__tada animate__infinite animate__fast animate__delay-3s"></a>
                         </div>
                     </div>
-    
-                    <div class="floats"></div>
-    
-                    <div class="boxset2">
-                        <div class="container boxes">
-                            <div class="box4">
-                                <a href="" class="fab fa-github-square animate__animated animate__tada animate__infinite animate__fast animate__delay-3s"></a>
-                                <a href="https://liamweather.netlify.app" class="fas fa-link animate__animated animate__tada animate__infinite animate__fast animate__delay-3s"></a>
-                                <h2 class="project-name">WEATHER PRO</h2>
-                                <i class="fas fa-info-circle info3 animate__animated animate__tada animate__infinite animate__fast animate__delay-3s"></i>
-                                <div class="info-text3">
-                                    <p class="info">A global weather information web application built with javascript and Accuweather API.</p>
-                                    <button class="btn info-close3">close</button>
-                                </div>
-                            </div>
-                        </div>
-                            
-                        <div class="container boxes">
-                            <div class="box5">
-                                <a href="https://github.com/LiamNussie/Gamers-website" class="fab fa-github-square animate__animated animate__tada animate__infinite animate__fast animate__delay-3s"></a>
-                                <a href="https://gamerx.netlify.app" class="fas fa-link animate__animated animate__tada animate__infinite animate__fast animate__delay-3s"></a>
-                                <h2 class="project-name">GAMERX</h2>
-                                <i class="fas fa-info-circle info4 animate__animated animate__tada animate__infinite animate__fast animate__delay-3s"></i>
-                                <div class="info-text4">
-                                    <p class="info">A website for gamers and tech lovers.</p>
-                                    <button class="btn info-close4">close</button>
-                                </div>
-                            </div>
-                        </div>
-    
-    
-    
+                </div>
+
+                <div class="box four box4">
+                    <div class="img four">
+                        <img src="images/bg7.jpg" alt="">
                     </div>
-                    
+                    <div class="info-text info-text4">
+                        <p class="info">A real-time weather condition web application made with vanilla javascript and Accuweather API.</p>
+                        <div class="info-btn info-btn4">close</div>
+                    </div>
+                    <div class="p-bottom">
+                        <div class="p-title">
+                            <h2>WEATHER PRO</h2>
+                        </div>
+                        <div class="p-icons">
+                            <i class="fas fa-info-circle info1 animate__animated animate__tada animate__infinite animate__fast animate__delay-3s"></i>
+                            <a href="https://github.com/LiamNussie/Liam-WeatherApp-Project" class="fab fa-github-square animate__animated animate__tada animate__infinite animate__fast animate__delay-3s"></a>
+                            <a href="https://weatherprox.netlify.app" class="fas fa-link animate__animated animate__tada animate__infinite animate__fast animate__delay-3s"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box five box5">
+                    <div class="img five">
+                        <img src="images/bg8.jpg" alt="">
+                    </div>
+                    <div class="info-text info-text5">
+                        <p class="info">A simple todo list.</p>
+                        <div class="info-btn info-btn5">close</div>
+                    </div>
+                    <div class="p-bottom">
+                        <div class="p-title">
+                            <h2>MY TODO</h2>
+                        </div>
+                        <div class="p-icons">
+                            <i class="fas fa-info-circle info1 animate__animated animate__tada animate__infinite animate__fast animate__delay-3s"></i>
+                            <a href="https://github.com/LiamNussie/Liam-Todo-Project" class="fab fa-github-square animate__animated animate__tada animate__infinite animate__fast animate__delay-3s"></a>
+                            <a href="https://liamtodo.netlify.app" class="fas fa-link animate__animated animate__tada animate__infinite animate__fast animate__delay-3s"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box six box6">
+                    <div class="img six">
+                        <img src="images/bg2.jpg" alt="">
+                    </div>
+                    <div class="info-text info-text6">
+                        <p class="info">A pop quiz app about myself.</p>
+                        <div class="info-btn info-btn6">close</div>
+                    </div>
+                    <div class="p-bottom">
+                        <div class="p-title">
+                            <h2>STAN  QUIZ</h2>
+                        </div>
+                        <div class="p-icons">
+                            <i class="fas fa-info-circle info1 animate__animated animate__tada animate__infinite animate__fast animate__delay-3s"></i>
+                            <a href="https://github.com/LiamNussie/Liam-Quiz-Project" class="fab fa-github-square animate__animated animate__tada animate__infinite animate__fast animate__delay-3s"></a>
+                            <a href="https://liamquiz.netlify.app" class="fas fa-link animate__animated animate__tada animate__infinite animate__fast animate__delay-3s"></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="container my-3 text-center skills">
+                <h3 class="skillhead">SKILLS</h3>
+                <div class="container skillset">
+                    <div class="skill1">
+                        <div class="html stack">
+                            <i class="fas fa-file-code"></i><br>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="css stack">
+                            <i class="fab fa-css3-alt"></i><br>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="Javascript stack">
+                            <i class="fab fa-js-square"></i><br>
+                            <span>Javascript</span>
+                        </div>
+                        <div class="react stack">
+                            <i class="fab fa-reacteurope"></i><br>
+                            <span>React</span>
+                        </div>
+                    </div>
+                    <br><br><br>
+                    <div class="skill2">
+                        <div class="git stack">
+                            <i class="fab fa-git"></i><br>
+                            <span>Git</span>
+                        </div>
+                        <div class="firebase stack">
+                            <i class="fas fa-fire-alt"></i><br>
+                            <span>Firebase</span>
+                        </div>
+                        <div class="jquery stack">
+                            <i class="fab fa-jsfiddle"></i><br>
+                            <span>Jquery</span>
+                        </div>
+                        <div class="bootstrap stack">
+                            <i class="fab fa-bootstrap"></i><br>
+                            <span>Bootstrap</span>
+                        </div>
+                    </div>
+                    <!-- <br><br><br>
+                    <div class="skill3">
                         
+                    </div>
+                    <div class="skill4">
+                        
+                    </div> -->
                 
-            </div>
-    
-                        <div class="floats"></div>
-    
-        </div>
-    
-        <div class="container my-3 text-center skills">
-            <h3 class="skillhead">SKILLS</h3>
-            <div class="container skillset">
-                <div class="skill1">
-                    <div class="html stack">
-                        <i class="fas fa-file-code"></i><br>
-                        <span>HTML5</span>
-                    </div>
-                    <div class="css stack">
-                        <i class="fab fa-css3-alt"></i><br>
-                        <span>CSS3</span>
-                    </div>
-                    <div class="Javascript stack">
-                        <i class="fab fa-js-square"></i><br>
-                        <span>Javascript</span>
-                    </div>
-                    <div class="react stack">
-                        <i class="fab fa-reacteurope"></i><br>
-                        <span>React</span>
-                    </div>
                 </div>
-                <br><br><br>
-                <div class="skill2">
-                    <div class="git stack">
-                        <i class="fab fa-git"></i><br>
-                        <span>Git</span>
-                    </div>
-                    <div class="firebase stack">
-                        <i class="fas fa-fire-alt"></i><br>
-                        <span>Firebase</span>
-                    </div>
-                    <div class="jquery stack">
-                        <i class="fab fa-jsfiddle"></i><br>
-                        <span>Jquery</span>
-                    </div>
-                    <div class="bootstrap stack">
-                        <i class="fab fa-bootstrap"></i><br>
-                        <span>Bootstrap</span>
-                    </div>
-                </div>
-                <!-- <br><br><br>
-                <div class="skill3">
-                    
-                </div>
-                <div class="skill4">
-                    
-                </div> -->
-            
-            </div>
-            
-            <div class="resume">
-                <a href="docs/AKINNUSI WILLIAMS BOLARINWA RESUME.docx" class="download" download="">DOWNLOAD RESUME</a>
-                <a href="docs/AKINNUSI WILLIAMS BOLARINWA RESUME.docx" class="fas fa-download download" download=""></a>
-            </div>
-    
-        </div>
-    
-    
-        <div class="container my-3 about-section">
-            <div class="about-head">
-                <h2>ABOUT ME</h2>
-            </div>
-            <div class="about-para">
-                <h4>I am a Front-End web Developer from Lagos, Nigeria.</h4>
-                <p>I enjoy taking complex problems and turning them into simple and beautiful interface designs. I also love the logic and structure of coding and always strive to write elegant and efficient codes. </p>
-                <p>I build eveything from business sites to rich interactive web applications.If you are a business seeking web presence or an employer looking to hire, do get in touch.</p>
-                <p>When I'm not coding or pushing pixels, you'll find me with a guitar or playing video games.</p>
-            </div>
-        </div>
-
-
-        <div class="container text-center contact">
-    
-            <h3 class="contact1">CONTACT ME</h3>
-
-            <div class="form-area">
-
-            </div>
-            <div class="form">
-                <form>
-                    <input type="text" placeholder="name" class="form-control" required><br>
-                    <input type="email" placeholder="email address" class="form-control" required><br>
-                    <input type="tel" placeholder="phone number" class="form-control" required><br>
-                    <textarea name="" id="text-area" cols="30" rows="10" placeholder="your message..." class="form-control" required></textarea><br>
-                    <button>send</button>
-                </form>
-            </div>
-
-            <div class="deets">
-                <div class="mail-info">
-                    <i class="fas fa-envelope"></i>
-                    <a class="mail" href="mailto:williamsakinnusi101@gmail.com">williamsakinnusi101@gmail.com</a>
-                </div>
-                <div class="phone-info">
-                    <i class="fas fa-phone"></i>
-                    <a class="phone" href="tel:07068495321">(+234) 706 8495 321</a>
+                
+                <div class="resume">
+                    <a href="docs/AKINNUSI WILLIAMS BOLARINWA RESUME.docx" class="download" download="">DOWNLOAD RESUME</a>
+                    <a href="docs/AKINNUSI WILLIAMS BOLARINWA RESUME.docx" class="fas fa-download download" download=""></a>
                 </div>
         
-                <div class="socials">
-                    <a href="https://www.linkedin.com/in/williams-akinnusi-9900081b4/" class="fab fa-linkedin"></a>
-                    <a href="https://github.com/LiamNussie/" class="fab fa-github"></a>
-                    <a href="https://twitter.com/nussie_Liam?s=03/" class="fab fa-twitter"></a>
-                    <a href="https://www.instagram.com/liam.nussie/" class="fab fa-instagram"></a>
+            </div>
+        
+        
+            <div class="container my-3 about-section">
+                <div class="about-head">
+                    <h2>ABOUT ME</h2>
+                </div>
+                <div class="about-para">
+                    <h4>I am a Front-End web Developer from Lagos, Nigeria.</h4>
+                    <p>I enjoy taking complex problems and turning them into simple and beautiful interface designs. I also love the logic and structure of coding and always strive to write elegant and efficient codes. </p>
+                    <p>I build eveything from business sites to rich interactive web applications.If you are a business seeking web presence or an employer looking to hire, do get in touch.</p>
+                    <p>When I'm not coding or pushing pixels, you'll find me with a guitar or playing video games.</p>
                 </div>
             </div>
-           
-        </div>
-    
-        <footer>&copy; 2020 LIAM NUSSIE</footer>
-    </div>
-    
-   
 
-    <script src="scripts/app.js"></script>
-</body>
+
+            <div class="container text-center contact">
+        
+                <h3 class="contact1">CONTACT ME</h3>
+
+                <div class="form-area">
+
+                </div>
+                <div class="form">
+                    <form>
+                        <input type="text" placeholder="name" class="form-control" required><br>
+                        <input type="email" placeholder="email address" class="form-control" required><br>
+                        <input type="tel" placeholder="phone number" class="form-control" required><br>
+                        <textarea name="" id="text-area" cols="30" rows="10" placeholder="your message..." class="form-control" required></textarea><br>
+                        <button>send</button>
+                    </form>
+                </div>
+
+                <div class="deets">
+                    <div class="mail-info">
+                        <i class="fas fa-envelope"></i>
+                        <a class="mail" href="mailto:williamsakinnusi101@gmail.com">williamsakinnusi101@gmail.com</a>
+                    </div>
+                    <div class="phone-info">
+                        <i class="fas fa-phone"></i>
+                        <a class="phone" href="tel:07068495321">(+234) 706 8495 321</a>
+                    </div>
+            
+                    <div class="socials">
+                        <a href="https://www.linkedin.com/in/williams-akinnusi-9900081b4/" class="fab fa-linkedin"></a>
+                        <a href="https://github.com/LiamNussie/" class="fab fa-github"></a>
+                        <a href="https://twitter.com/nussie_Liam?s=03/" class="fab fa-twitter"></a>
+                        <a href="https://www.instagram.com/liam.nussie/" class="fab fa-instagram"></a>
+                    </div>
+                </div>
+            
+            </div>
+        
+            <footer>&copy; 2020 LIAM NUSSIE</footer>
+        </div>
+        
+    
+
+        <script src="scripts/app.js"></script>
+    </body>
 </html>

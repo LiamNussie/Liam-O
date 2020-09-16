@@ -83,71 +83,10 @@ contactX.addEventListener('click', e => {
 window.addEventListener('load', () => {
     setTimeout(() => {
         avatar.style.display = 'block';
-    }, 3000)
+    }, 7000)
 });
 
 
-// More Info
-
-const infoIcon1 = document.querySelector('.info1');
-const infoText1 = document.querySelector('.info-text1');
-const infoClose1 = document.querySelector('.info-close1');
-
-const infoIcon2 = document.querySelector('.info2');
-const infoText2 = document.querySelector('.info-text2');
-const infoClose2 = document.querySelector('.info-close2');
-
-const infoIcon3 = document.querySelector('.info3');
-const infoText3 = document.querySelector('.info-text3');
-const infoClose3 = document.querySelector('.info-close3');
-
-const infoIcon4 = document.querySelector('.info4');
-const infoText4 = document.querySelector('.info-text4');
-const infoClose4 = document.querySelector('.info-close4');
-
-infoIcon1.addEventListener('click', () => {
-    infoText1.style.display = 'block';
-    infoText1.style.animation = 'fadeIn 1s linear 1';
-});
-infoClose1.addEventListener('click', () => {
-    infoText1.style.animation = 'fadeOut 1s linear 1';
-    setTimeout(() => {
-        infoText1.style.display = 'none';
-    }, 1000); 
-});
-
-infoIcon2.addEventListener('click', () => {
-    infoText2.style.display = 'block';
-    infoText2.style.animation = 'fadeIn 1s linear 1';
-});
-infoClose2.addEventListener('click', () => {
-    infoText2.style.animation = 'fadeOut 1s linear 1';
-    setTimeout(() => {
-        infoText2.style.display = 'none';
-    }, 1000); 
-});
-
-infoIcon3.addEventListener('click', () => {
-    infoText3.style.display = 'block';
-    infoText3.style.animation = 'fadeIn 1s linear 1';
-});
-infoClose3.addEventListener('click', () => {
-    infoText3.style.animation = 'fadeOut 1s linear 1';
-    setTimeout(() => {
-        infoText3.style.display = 'none';
-    }, 1000); 
-});
-
-infoIcon4.addEventListener('click', () => {
-    infoText4.style.display = 'block';
-    infoText4.style.animation = 'fadeIn 1s linear 1';
-});
-infoClose4.addEventListener('click', () => {
-    infoText4.style.animation = 'fadeOut 1s linear 1';
-    setTimeout(() => {
-        infoText4.style.display = 'none';
-    }, 1000); 
-});
 
 
 const overall = document.querySelector('.overall-container');
@@ -155,7 +94,154 @@ const overall = document.querySelector('.overall-container');
 window.addEventListener('load', () => {
     setTimeout(() => {
         overall.style.display = 'block';
-    }, 3500)
+    }, 4000)
 });
 
+
+// More Info
+
+const infoBox1 = document.querySelector('.box1');
+const infoBox2 = document.querySelector('.box2');
+const infoBox3 = document.querySelector('.box3');
+const infoBox4 = document.querySelector('.box4');
+const infoBox5 = document.querySelector('.box5');
+const infoBox6 = document.querySelector('.box6');
+const infoText1 = document.querySelector('.info-text1');
+const infoText2 = document.querySelector('.info-text2');
+const infoText3 = document.querySelector('.info-text3');
+const infoText4 = document.querySelector('.info-text4');
+const infoText5 = document.querySelector('.info-text5');
+const infoText6 = document.querySelector('.info-text6');
+const infoClose1 = document.querySelector('.info-btn1');
+const infoClose2 = document.querySelector('.info-btn2');
+const infoClose3 = document.querySelector('.info-btn3');
+const infoClose4 = document.querySelector('.info-btn4');
+const infoClose5 = document.querySelector('.info-btn5');
+const infoClose6 = document.querySelector('.info-btn6');
+
+infoBox1.addEventListener('click', e => {
+    if(e.target.classList.contains('fa-info-circle')){
+        infoText1.style.animation = 'fadeIn 1s ease 1';
+        setTimeout(() => {
+            infoText1.style.opacity = '1';
+        }, 1000);
+    } else {
+        console.log('there was an error');
+    };
+
+    if(e.target.classList.contains('info-btn1')){
+        infoText1.style.animation = 'fadeOut 1s ease 1';
+        setTimeout(() => {
+            infoText1.style.opacity = '0';
+        }, 1000);
+    } else {
+        console.log('there was an error');
+    };
+    
+});
+
+infoBox2.addEventListener('click', e => {
+    if(e.target.classList.contains('fa-info-circle')){
+        infoText2.style.animation = 'fadeIn 1s ease 1';
+        setTimeout(() => {
+            infoText2.style.opacity = '1';
+        }, 1000);
+    } else {
+        console.log('there was an error');
+    };
+
+    if(e.target.classList.contains('info-btn2')){
+        infoText2.style.animation = 'fadeOut 1s ease 1';
+        setTimeout(() => {
+            infoText2.style.opacity = '0';
+        }, 1000);
+    } else {
+        console.log('there was an error');
+    };
+    
+});
+
+infoBox3.addEventListener('click', e => {
+    if(e.target.classList.contains('fa-info-circle')){
+        infoText3.style.animation = 'fadeIn 1s ease 1';
+        setTimeout(() => {
+            infoText3.style.opacity = '1';
+        }, 1000);
+    } else {
+        console.log('there was an error');
+    };
+
+    if(e.target.classList.contains('info-btn3')){
+        infoText3.style.animation = 'fadeOut 1s ease 1';
+        setTimeout(() => {
+            infoText3.style.opacity = '0';
+        }, 1000);
+    } else {
+        console.log('there was an error');
+    };
+    
+});
+
+infoBox4.addEventListener('click', e => {
+    if(e.target.classList.contains('fa-info-circle')){
+        infoText4.style.animation = 'fadeIn 1s ease 1';
+        setTimeout(() => {
+            infoText4.style.opacity = '1';
+        }, 1000);
+    } else {
+        console.log('there was an error');
+    };
+
+    if(e.target.classList.contains('info-btn4')){
+        infoText4.style.animation = 'fadeOut 1s ease 1';
+        setTimeout(() => {
+            infoText4.style.opacity = '0';
+        }, 1000);
+    } else {
+        console.log('there was an error');
+    };
+    
+});
+
+infoBox5.addEventListener('click', e => {
+    if(e.target.classList.contains('fa-info-circle')){
+        infoText5.style.animation = 'fadeIn 1s ease 1';
+        setTimeout(() => {
+            infoText5.style.opacity = '1';
+        }, 1000);
+    } else {
+        console.log('there was an error');
+    };
+
+    if(e.target.classList.contains('info-btn5')){
+        infoText5.style.animation = 'fadeOut 1s ease 1';
+        setTimeout(() => {
+            infoText5.style.opacity = '0';
+        }, 1000);
+    } else {
+        console.log('there was an error');
+    };
+    
+});
+
+infoBox6.addEventListener('click', e => {
+    if(e.target.classList.contains('fa-info-circle')){
+        infoText6.style.animation = 'fadeIn 1s ease 1';
+        setTimeout(() => {
+            infoText6.style.opacity = '1';
+        }, 1000);
+    } else {
+        console.log('there was an error');
+    };
+
+    if(e.target.classList.contains('info-btn6')){
+        infoText6.style.animation = 'fadeOut 1s ease 1';
+        setTimeout(() => {
+            infoText6.style.opacity = '0';
+        }, 1000);
+    } else {
+        console.log('there was an error');
+    };
+    
+});
 
