@@ -922,7 +922,7 @@ footer {
         margin-top: 30px;
     }
     .top-btns {
-        margin-top: 5px;
+        margin-top: 0;
     }
 } 
 @media only screen and (max-width: 510px) {
