@@ -690,7 +690,7 @@ i {
     display: none;
     margin: 0 auto;
     position: relative;
-    transform: translate(40px,-35px);
+    transform: translate(35px,-35px);
     height: 35px;
     width: 35px;
     border: 4px solid black;
