@@ -237,7 +237,7 @@
 
 
             <div class="container my-3 text-center skills">
-                <h3 class="skillhead">SKILLS</h3>
+                <h3 class="skillhead">STACK</h3>
                 <div class="container skillset">
                     <div class="skill1">
                         <div class="html stack">
@@ -308,14 +308,21 @@
 
                 </div>
                 <div class="form">
-                    <form>
-                        <input type="text" placeholder="name" class="form-control" required><br>
-                        <input type="email" placeholder="email address" class="form-control" required><br>
-                        <input type="tel" placeholder="phone number" class="form-control" required><br>
-                        <textarea name="" id="text-area" cols="30" rows="10" placeholder="your message..." class="form-control" required></textarea><br>
+                    <form action="https://formspree.io/xaylwlaz" method="POST">
+                        <input type="text" placeholder="name" class="form-control" name="name" required><br>
+                        <input type="email" placeholder="email address" class="form-control" name="_replyto" required><br>
+                        <input type="tel" placeholder="phone number" class="form-control" name="phone" required><br>
+                        <textarea name="message" id="text-area" cols="30" rows="10" placeholder="your message..." class="form-control" required></textarea><br>
                         <button>send</button>
                     </form>
+                    <div id="loader">
+                        <span></span>
+                        <span></span>
+                    </div>
                 </div>
+
+
+                <div id="or">--------------------OR--------------------</div>
 
                 <div class="deets">
                     <div class="mail-info">

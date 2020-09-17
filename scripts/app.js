@@ -252,3 +252,9 @@ infoBox6.addEventListener('click', e => {
     
 });
 
+const sendMessage = document.querySelector('form button');
+const loader = document.querySelector('#loader');
+
+sendMessage.addEventListener('click', () => {
+    loader.style.display = 'block';
+});
